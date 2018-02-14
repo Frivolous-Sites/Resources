@@ -1,0 +1,18 @@
+@import url(https://general-cloud.github.io/CSS/Fonts/Feronia.css);
+
+form {font-family: 'Feronia';
+font-size: 18px}
+
+legend {border: 1px solid;
+font-family: 'Feronia';
+font-size: 18px;
+border-radius: 10px}
+
+fieldset {width: 300px;
+padding: 10px 20px;
+border-radius: 10px}
+
+#submit {color: green;
+border-bottom: 2px solid grey;
+font-family: 'Feronia';
+font-size: 18px}
