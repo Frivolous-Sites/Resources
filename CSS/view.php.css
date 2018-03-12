@@ -1,25 +1,25 @@
 a {
     text-decoration: underline;
-    color: #075baa;
+    color: #075BAA;
 }
 
 table {
-    font-family: "Times New Roman", 仿宋, Times;
+    font-family: "Times New Roman", 仿宋, Times, Georgia;
     border-collapse: collapse;
     width: 88%;
 }
 
 td, th {
-    border: 1px solid #eeff09;
+    border: 1px solid #EEFF09;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #0aff0e;
+    background-color: #0AFF0E;
 }
 
 tr:nth-child(odd) {
-    background-color: #11ffeb;
+    background-color: #11FFEB;
 }
 
 .button {
@@ -31,7 +31,7 @@ tr:nth-child(odd) {
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    -webkit-transition-duration: 0.3s; /* Safari */
+    -webkit-transition-duration: 0.3s; 
     		transition-duration: 0.3s;
     cursor: pointer;
 }
