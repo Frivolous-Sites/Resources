@@ -32,7 +32,7 @@ tr:nth-child(odd) {
     display: inline-block;
     font-size: 18px;
     -webkit-transition-duration: 0.3s; /* Safari */
-    		    transition-duration: 0.3s;
+    		transition-duration: 0.3s;
     cursor: pointer;
 }
 
