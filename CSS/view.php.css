@@ -1,0 +1,50 @@
+a {
+    text-decoration: underline;
+    color: #075baa;
+}
+
+table {
+    font-family: "Times New Roman", 仿宋, Times;
+    border-collapse: collapse;
+    width: 88%;
+}
+
+td, th {
+    border: 1px solid #eeff09;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #0aff0e;
+}
+
+tr:nth-child(odd) {
+    background-color: #11ffeb;
+}
+
+.button {
+    background-color: #4CAF50;
+    border-radius: 12px;
+    font-family: Georgia;
+    padding: 14px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    		    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #FFFFFF; 
+    color: #000000; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+// Copyright 2018 Resources (resources.ga). All rights reserved.
