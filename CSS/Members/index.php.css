@@ -10,11 +10,11 @@ a:hover {
 body {
     height: 100%;
     width: 100%;
+    display: inline-block;
     font-family: "Times New Roman", 宋体, Times, Georgia, serif;
     margin: 0;
     background: linear-gradient(45deg, #49A09D, #5F2C82);
     font-weight: 100;
-    overflow:auto;
 }
 
 button {
@@ -130,5 +130,4 @@ tbody td:hover:before {
     z-index: -1;
 }
 
-
-// Copyright 2018 Resources (resources.ga). All rights reserved.
+/* Copyright 2018 Resources (resources.ga). All rights reserved. */
