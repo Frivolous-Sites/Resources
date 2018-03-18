@@ -1,17 +1,17 @@
 a {
     text-decoration: underline;
-    color: #f9f9f9;
+    color: #F9F9F9;
 }
 
 a:hover { 
-    color: #00fffa;
+    color: #00FFFA;
 }
 
 body {
     height: 100%;
     font-family: "Times New Roman", 宋体, Times, Georgia;
     margin: 0;
-    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    background: linear-gradient(45deg, #49A09D, #5F2C82);
     font-weight: 100;
 }
 
@@ -39,7 +39,7 @@ button {
 .button1 {
     display: inline-block;
     border-radius: 50%;
-    background-color: #f4511e;
+    background-color: #F4511E;
     border: none;
     color: #FFFFFF;
     font-family: Verdana, Arial;
@@ -96,7 +96,7 @@ th,
 td {
     padding: 14px;
     background-color: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 th {
@@ -104,7 +104,7 @@ th {
 }
 
 thead th {
-    background-color: #55608f;
+    background-color: #55608F;
 }
 
 tbody tr:hover {
