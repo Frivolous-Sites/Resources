@@ -11,7 +11,7 @@ body {
     height: 100%;
     font-family: "Times New Roman", 宋体, Times, Georgia;
     margin: 0;
-    background-color: linear-gradient(45deg, #49A09D, #5F2C82);
+    background: linear-gradient(45deg, #49A09D, #5F2C82);
     font-weight: 100;
 }
 
@@ -85,7 +85,7 @@ button {
 }
 
 table {
-    width: 888px;
+    max-width: 888px;
     border-collapse: collapse;
     overflow: hidden;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
