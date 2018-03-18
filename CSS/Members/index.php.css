@@ -85,7 +85,7 @@ button {
 }
 
 table {
-    max-width: 888px;
+    width: 888px;
     border-collapse: collapse;
     overflow: hidden;
     -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
