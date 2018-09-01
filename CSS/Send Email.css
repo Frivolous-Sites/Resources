@@ -1,4 +1,5 @@
 @import url(https://tpicloud.github.io/CSS/Fonts/Minified/Feronia/400.css);
+@import url(https://tpicloud.github.io/CSS/Fonts/Minified/%E4%BB%BF%E5%AE%8B/400.css);
 
 form {
     font-family: 'Feronia';
@@ -47,3 +48,5 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #1D7A45;
 }
+
+/* Copyright 2018 Resources (t69.us). All rights reserved. */
