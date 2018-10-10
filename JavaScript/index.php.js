@@ -101,17 +101,17 @@ sub_categories["Greenfoot"] = "Environment|Projects";
 
 html = "";
 for (category in categories) {
-  if (window.CP.shouldStopExecution(1)) {
+  if (window.STOP.shouldStopExecution(1)) {
     break;
   }
-  if (window.CP.shouldStopExecution(1)) {
+  if (window.STOP.shouldStopExecution(1)) {
     break;
   }
   html += '<option value="' + category + '">' + category + "</option>";
-  window.CP.exitedLoop(1);
+  window.STOP.exitedLoop(1);
 }
 
-window.CP.exitedLoop(1);
+window.STOP.exitedLoop(1);
 document.getElementById("category").innerHTML = document.getElementById("category").innerHTML + html;
 
 function set_first(oCategorySel, oSubCategorySel, oSubSubCategorySel) {
@@ -125,19 +125,19 @@ function set_first(oCategorySel, oSubCategorySel, oSubSubCategorySel) {
     oSubCategorySel.options[0] = new Option("SELECT", "");
     subCategory = categories[category].split("|");
     for (var i = 0; i < subCategory.length; i++) {
-      if (window.CP.shouldStopExecution(2)) {
+      if (window.STOP.shouldStopExecution(2)) {
         break;
       }
-      if (window.CP.shouldStopExecution(2)) {
+      if (window.STOP.shouldStopExecution(2)) {
         break;
       }
       oSubCategorySel.options[i + 1] = new Option(
         subCategory[i],
         subCategory[i]
       );
-      window.CP.exitedLoop(2);
+      window.STOP.exitedLoop(2);
     }
-    window.CP.exitedLoop(2);
+    window.STOP.exitedLoop(2);
   } else {
     oSubCategorySel.disabled = true;
   }
@@ -152,19 +152,19 @@ function set_second(oSubCategorySel, oSubSubCategorySel) {
     oSubSubCategorySel.options[0] = new Option("SELECT", "");
     subSubCategoryArr = sub_categories[subCategory].split("|");
     for (var i = 0; i < subSubCategoryArr.length; i++) {
-      if (window.CP.shouldStopExecution(3)) {
+      if (window.STOP.shouldStopExecution(3)) {
         break;
       }
-      if (window.CP.shouldStopExecution(3)) {
+      if (window.STOP.shouldStopExecution(3)) {
         break;
       }
       oSubSubCategorySel.options[i + 1] = new Option(
         subSubCategoryArr[i],
         subSubCategoryArr[i]
       );
-      window.CP.exitedLoop(3);
+      window.STOP.exitedLoop(3);
     }
-    window.CP.exitedLoop(3);
+    window.STOP.exitedLoop(3);
   } else {
     oSubSubCategorySel.disabled = true;
   }
